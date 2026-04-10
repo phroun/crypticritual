@@ -30,14 +30,14 @@ To attempt to make a "list of changes" to compare this with any one existing rit
 
 The following Companions contributed substantive material during the final stages of the First Edition's development:
 
-Pete Bock
-Jeffrey R. Day
-Michael Hogan
-Brian Kaufman
-Richard G. Maris
-Mark W. Potter
-David Reinbold
-David Wagner
-George Wild
+  - Pete Bock
+  - Jeffrey R. Day
+  - Michael Hogan
+  - Brian Kaufman
+  - Richard G. Maris
+  - Mark W. Potter
+  - David Reinbold
+  - David Wagner
+  - George Wild
 
 Several other Companions also provided general feedback and corrections to readings of earlier drafts between 2009 and 2022.
