@@ -18,7 +18,7 @@ None have been reported at this time.
 
 A book published in 1900 entered the public domain in the United States on January 1, 1996. Under US copyright law, works published before 1929 are generally in the public domain, as they have exceeded the maximum 95-year copyright term for works published between 1923 and 1963.
 
-The first several editions of the General Grand Council ritual published in 1900 are available as facsimile reprints.  Reference has also been made to the works of Jeremy Ladd Cross (The True Masonic Chart, 1826), and the Text Book of Cryptic Masonry by Jackson H. Chase (1870), as well as other such books.
+The first several editions of the General Grand Council ritual, which was first published in 1900, are available as facsimile reprints.  Reference has also been made to the works of Jeremy Ladd Cross (The True Masonic Chart, 1826), and the Text Book of Cryptic Masonry by Jackson H. Chase (1870), as well as other such books.
 
 This, together with the experience held by the authors and contributors of the Reference Edition in the workings of Masonry in the state of Oregon, have given us familiarity with the particulars of Cryptic Masonry, but also with the general vocabulary and diction of the Rituals of the Grand Lodge of Anceint Free & Accepted Masons of Oregon and the Grand Chapter of Royal Arch Masons of Oregon, the style of which we have aimed to match.
 
