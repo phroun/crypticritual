@@ -25,3 +25,19 @@ This, together with the experience held by the authors and contributors of the R
 It constitutes a wholly new version of the ritual, true to the lessons and forms of Cryptic Masonry in general, and true to the language of the original framers of the degrees in areas where Public Domain sources were available for use, but re-phrased to fit the "Oregon" style in all other (or clumsy) areas.  As much as an ancient ritual can constitute a "creative work", the intention has been to produce a book unencumbered by any licensing issues.  The authors have even gone so far as to draw line art for the familiar emblems and jewels froom scratch, rather than to borrow even the least image from another artist of which it would not have been our right to re-license for broader use.
 
 To attempt to make a "list of changes" to compare this with any one existing ritual would be a nearly impossible and nonsensical task.  It is best to review it in its entirety, and make an educational task of it.  A set of thorough "end notes" have been provided to answer many questions which may be encountered along the way.
+
+## Who contributed to this Ritual?
+
+The following Companions contributed substantive material during the final stages of the First Edition's development:
+
+Pete Bock
+Jeffrey R. Day
+Michael Hogan
+Brian Kaufman
+Richard G. Maris
+Mark W. Potter
+David Reinbold
+David Wagner
+George Wild
+
+Several other Companions also provided general feedback and corrections to readings of earlier drafts between 2009 and 2022.
