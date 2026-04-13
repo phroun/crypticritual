@@ -41,3 +41,7 @@ The following Companions contributed substantive material during the final stage
   - George Wild
 
 Several other Companions also provided general feedback and corrections to readings of earlier drafts between 2009 and 2022.
+
+## Reporting Errors or Suggestions for Improvement
+
+To report any errors or suggestions for improvement for future editions, please open an issue, being mindful that the issue list has public visibility and you should only write out things that according to our obligations are proper to be written:  https://github.com/phroun/crypticritual/issues
