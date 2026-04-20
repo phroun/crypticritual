@@ -1,12 +1,14 @@
 # Cryptic Ritual - Reference Edition
 
-# Online Version:  http://archive.org/details/crypticritual
+# Online Version 1.1:  https://archive.org/details/cryptic-ritual-reference-v-1.1
 
 ## Where else to obtain the Ritual
 
 Link to this Page:  http://tinyurl.com/crypticritual
 
 ### Version 1.0
+
+Online:  http://archive.org/details/crypticritual
 
 Paperback:  https://www.lulu.com/shop/pete-bock-and-jeffrey-day-and-michael-hogan-and-brian-kaufman/ritual-of-the-cryptic-degrees/paperback/product-2md465r.html
 
