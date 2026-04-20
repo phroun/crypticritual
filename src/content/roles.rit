@@ -1,0 +1,25 @@
+%ROLE IM "I._M." "Ill. Master" "Illustrious Master" marker-left="˃˃ " marker-right=" ˂˂"
+%ROLE DM "D._M." "Deputy Master"
+%ROLE PCW "P._C._W." "Prin. Conductor" "Principal Conductor of the Work"
+%ROLE Treas "Treas." "Treasurer"
+%ROLE Rec "Rec." "Recorder"
+%ROLE CG "C._G." "Captain of the Guard"
+%ROLE CC "C._C." "Conductor of the Council"
+%ROLE Chap "Chap." "Chaplain"
+%ROLE Stew "Stew." "Steward"
+%ROLE Sent "Sent." "Sentinel"
+
+%% the following roles are used as degree conferral aliases to represent
+%% the character identity of different officers:
+%ROLE KS "K._S." "King Solomon" marker-left="˃˃ " marker-right=" ˂˂"
+%ROLE HKT "H._K._T." "Hiram King of Tyre"
+%ROLE HA "H._A." "Hiram Abiff"
+%ROLE Ahishar "Ahishar"
+
+%% the following roles are needed for technical reasons in the formatting of
+%% the book:
+
+%ROLE Ans "Answer"
+%ROLE IMor "I._M. or" marker="" sep=""
+%ROLE Response "Response"
+%ROLE Cand "Cand." "Candidate"
