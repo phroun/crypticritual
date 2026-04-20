@@ -1,0 +1,461 @@
+/* cryptic.style — stylesheet for the Cryptic Degrees ritual book
+ *
+ * Naming convention:
+ *   Capitalized  = structural/block elements (Document, Page, H1, P, Dialog, ...)
+ *   lowercase    = inline style markers (em, strong, underline, smallcaps, ...)
+ *   .class       = variant of a structural element (Page.chapter, P.rubric, ...)
+ */
+
+/* ============================================================
+ * DOCUMENT DEFAULTS
+ * ============================================================ */
+
+Document.ritual {
+  lines-per-page: 42;
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: normal;
+  font-style: normal;
+  align: left;
+  justify: true;
+
+  page-width: 5.5in;
+  page-height: 8.5in;
+  margin-top: 0.75in;
+  margin-bottom: 0.75in;
+  margin-inner: 1in;
+  margin-outer: 0.75in;
+
+  justify-max-word-extra: 0.5;
+  justify-max-letter-ratio: 0.15;
+
+  fit-min-space-factor: 0.2;
+  fit-min-font-scale: 0.90;
+}
+
+
+/* ============================================================
+ * HEADINGS
+ * ============================================================ */
+
+H1 {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: bold;
+  align: center;
+}
+
+H2 {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: normal;
+  align: center;
+}
+
+
+/* ============================================================
+ * PAGE TYPES
+ * ============================================================ */
+
+Page.normal {
+  side: left-or-right;
+  grid-locked: true;
+  line-numbers: outer;
+  justify: true;
+  following-type: normal;
+
+  Header {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    separator-line: bottom;
+    separator-width: 0.2mm;
+  }
+  :left Header {
+    content: "{{page-number}} : : {{h1}}";
+  }
+  :right Header {
+    content: "{{h1}} : : {{page-number}}";
+  }
+  Footer { content: ""; }
+}
+
+Page.chapter {
+  side: left-or-right;
+  extends: Page.normal;
+  grid-locked: true;
+  line-numbers: outer;
+  justify: true;
+  following-type: normal;
+  Header { content: ""; }
+
+  Footer {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    content: "{{page-number}}";
+    align: center;
+  }
+}
+
+Page.chapter-unlined {
+  extends: Page.chapter;
+  line-numbers: none;
+  following-type: unlined;
+}
+
+Page.unlined {
+  extends: Page.normal;
+  line-numbers: none;
+  following-type: unlined;
+}
+
+Page.lined {
+  extends: Page.normal;
+}
+
+Page.chapter-lined {
+  extends: Page.chapter;
+}
+
+Page.title {
+  side: right-only;
+  grid-locked: false;
+  line-numbers: none;
+  top-margin-offset: 0.25in;
+  following-type: copyright;
+  Header { content: ""; }
+  Footer { content: ""; }
+
+  P {
+    font-family: "Times New Roman";
+    font-size: 14pt;
+    font-weight: bold;
+    align: center;
+  }
+}
+
+Page.copyright {
+  side: right-only;
+  grid-locked: false;
+  line-numbers: none;
+  top-margin-offset: 0.25in;
+  following-type: normal;
+  Header { content: ""; }
+  Footer { content: ""; }
+
+  P {
+    font-family: "Times New Roman";
+    font-size: 11pt;
+    align: center;
+  }
+}
+
+Page.figure {
+  side: left-or-right;
+  grid-locked: false;
+  line-numbers: none;
+  top-margin-offset: 0.25in;
+  following-type: normal;
+  track-headings: false;
+  Header { content: ""; }
+
+  Footer {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    content: "{{page-number}}";
+    align: center;
+  }
+
+  P {
+    font-family: "Times New Roman";
+    font-size: 11pt;
+    align: center;
+  }
+}
+
+Page.contents {
+  side: right-only;
+  grid-locked: false;
+  line-numbers: none;
+  line-height: 4.15mm;
+  following-type: contents-more;
+  Header { content: ""; }
+
+  Footer {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    content: "{{page-number}}";
+    align: center;
+  }
+
+  P {
+    font-family: "Times New Roman";
+    font-size: 10pt;
+    align: left;
+  }
+}
+
+Page.contents-more {
+  extends: Page.contents;
+  side: left-or-right;
+  margin-bottom-adjust: -0.2in;
+  following-type: contents-more;
+
+  Header {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    separator-line: bottom;
+  }
+  :right Header {
+    content: "{{h1}} : : {{page-number}}";
+  }
+  :left Header {
+    content: "{{page-number}} : : {{h1}}";
+  }
+  Footer { content: ""; }
+}
+
+Page.endnotes {
+  side: left-or-right;
+  grid-locked: false;
+  line-numbers: none;
+  line-height: 3.8mm;
+  justify: true;
+  following-type: endnotes-more;
+  Header { content: ""; }
+
+  Footer {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    content: "{{page-number}}";
+    align: center;
+  }
+
+  P {
+    font-family: "Times New Roman";
+    font-size: 9pt;
+  }
+}
+
+Page.endnotes-more {
+  extends: Page.endnotes;
+  margin-bottom-adjust: -0.2in;
+  following-type: endnotes-more;
+
+  Header {
+    font-family: "DejaVu Sans";
+    font-size: 12pt;
+    separator-line: bottom;
+  }
+  :right Header {
+    content: "{{h1}} : : {{page-number}}";
+  }
+  :left Header {
+    content: "{{page-number}} : : {{h1}}";
+  }
+  Footer { content: ""; }
+}
+
+/* ============================================================
+ * LINE NUMBERS
+ * ============================================================ */
+
+Line-Number {
+  font-family: "Helvetica";
+  font-size: 11pt;
+  color: #000000;
+  standoff: 3mm;
+  column-width: 8mm;
+  position: outer;
+}
+
+Speaker-Pointer {
+  default-left: "►";
+  default-right: "◄";
+  font-family: "DejaVu Sans";
+  font-size: 11pt;
+  gap: 0.32mm;
+}
+
+
+/* ============================================================
+ * PARAGRAPH CLASSES
+ * ============================================================ */
+
+P.sub {
+  font-family: "Times New Roman";
+  font-size: 14pt;
+  font-weight: bold;
+  align: center;
+}
+
+P.edition {
+  font-family: "Copperplate";
+  font-size: 14pt;
+  align: center;
+}
+
+P.note {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  align: center;
+}
+
+P.editorial {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-style: italic;
+  align: left;
+}
+
+P.dedication {
+  font-family: "Copperplate";
+  font-size: 11pt;
+  align: center;
+}
+
+P.names {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  align: center;
+}
+
+P.tribute {
+  font-family: "Copperplate";
+  font-size: 11pt;
+  align: center;
+}
+
+P.draft-info {
+  font-family: "Times New Roman";
+  font-size: 9pt;
+  align: center;
+}
+
+P.year {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: bold;
+  align: center;
+}
+
+P.toc-title {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: bold;
+  align: center;
+}
+
+P.toc-section {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: bold;
+  text-decoration: underline;
+  align: left;
+}
+
+P.rubric {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  font-weight: bold;
+  text-decoration: underline;
+  align: left;
+  justify: true;
+}
+
+P.caption, P.image-caption {
+  font-family: "Helvetica";
+  font-size: 10pt;
+  align: center;
+}
+
+
+/* ============================================================
+ * DIALOG
+ * ============================================================ */
+
+Dialog {
+  font-family: "Times New Roman";
+  font-size: 11pt;
+  justify: true;
+
+  Speaker {
+    font-weight: normal;
+    width: 12mm;
+    separator: "\u2013";
+  }
+
+  Decoration {
+    width: 5mm;
+    font-weight: bold;
+    align: center;
+  }
+
+  Action-Note {
+    font-weight: bold;
+    text-decoration: underline;
+  }
+}
+
+
+/* ============================================================
+ * INLINE STYLES (lowercase — user-extensible)
+ * ============================================================ */
+
+option {
+  font-family: "Metropolis Light";
+  font-size: 7pt;
+  letter-spacing: 1pt;
+}
+
+rtl {
+  font-family: "Hebrew";
+  font-size: 12pt;
+  direction: rtl;
+}
+
+parenthetical {
+  font-weight: bold;
+  text-decoration: underline;
+  prefix: "(";
+  suffix: ")";
+}
+
+
+/* ============================================================
+ * ENDNOTE REFERENCE
+ * ============================================================ */
+
+endnote-ref {
+  font-family: "Metropolis Light";
+  font-size: 7pt;
+  letter-spacing: 1pt;
+  content: "[See End Notes]";
+  bookmark: true;
+  identifier-prefix: "endnote-";
+}
+
+
+/* ============================================================
+ * ENDNOTE (on endnotes pages)
+ * ============================================================ */
+
+Endnote {
+  Reference {
+    width: 0.68in;
+    font-family: "Times New Roman";
+    font-size: 10pt;
+    identifier-prefix: "endnote-";
+    format: "Page {{page}}";
+    format-multi: "Page {{page}}-{{seq}}";
+  }
+
+  Heading {
+    font-family: "Times New Roman";
+    font-size: 10pt;
+    font-weight: bold;
+  }
+
+  trailing-space: 0.06in;
+  suppress-gap-after: true;
+  minimum-gap-before: 1lh;
+}

@@ -1,10 +1,14 @@
 # Cryptic Ritual - Reference Edition
 
-# Online Version:  http://archive.org/details/crypticritual
+# Online Version 1.1:  https://archive.org/details/cryptic-ritual-reference-v-1.1
 
 ## Where else to obtain the Ritual
 
 Link to this Page:  http://tinyurl.com/crypticritual
+
+### Version 1.0
+
+Online:  http://archive.org/details/crypticritual
 
 Paperback:  https://www.lulu.com/shop/pete-bock-and-jeffrey-day-and-michael-hogan-and-brian-kaufman/ritual-of-the-cryptic-degrees/paperback/product-2md465r.html
 
@@ -45,3 +49,111 @@ Several other Companions also provided general feedback and corrections to readi
 ## Reporting Errors or Suggestions for Improvement
 
 To report any errors or suggestions for improvement for future editions, please open an issue, being mindful that the issue list has public visibility and you should only write out things that according to our obligations are proper to be written:  https://github.com/phroun/crypticritual/issues
+
+## CHANGE LOG
+
+### Version 1.1 (April 2026)
+
+**Content Changes:**
+
+  - Since "Reference Edition" is the distinguishing part
+    of the title of this work, in all current and future
+    revisions, distinguishing it from other forms of
+    the Cryptic (Royal & Select Masters) ritual,
+    all other "Edition" language such as "First Edition"
+    or "2025 Edition" has now been modified to read
+    "VERSION 1.1 (April 2026)" instead.
+  - Added an "Example Copyright Page" on the reverse
+    side of the actual copyright page, to demonstrate
+    how an adopted and amended version might look.
+  - Moved Edition Notes to the front instead of the
+    end of the document, and rephrased the first line to
+    say "The 'Reference Edition' on which this is based"
+    instead of "this Reference Edition" so that the
+    Edition Notes may be left intact in derived/amended
+    editions without becoming inaccurate.
+  - Changed "this meeting" to "this assembly" in the
+    "Vouchment for Affiliation" to match the
+    language used in "Vouchment for Election of Candidate"
+  - Added the optional Marshal and Musician to Figure 1
+    (Officers of the Council), and to the list of
+    Appointive Officers at the top of the "Introductory
+    Remarks."  They were already present in Figure 2
+    (Officer's Jewels.)
+  - Added the abbreviations for the three characters
+    of the principal officers in the Royal Master Degree
+    to the top of page 235. (K. S., H. K. T., and H. A.)
+  - Corrected stage direction "and returns to station"
+    to read "and returns before station", since all
+    officers and Companions are still on the level due
+    to the Closing Charge at this point.
+  - Replaced the auxiliary illustration of the Cherubim
+    with extended wings upon the Mercy Seat of the Ark
+    of the Covenant on page 266 with a better
+    illustration specifically drawn for inclusion in
+    this book.
+
+**Formatting Changes:**
+
+  - Converted document source to .rit format.
+  - Added roman numeral page numbers to the front
+    matter prior to the Table of Contents, (with the
+    exception of the Title Page, Copyright Page, and
+    the blank reverse side of Figure 1.)
+  - Some entries in the Table of Contents are present
+    for logical grouping, but are out-of-order, and
+    these entries are now shown with their name and
+    number in italic.  That was the intent previously,
+    but was not applied consistently.
+  - Line numbering is now on the outer edge of all
+    regular pages, instead of on the left edge, to
+    prevent numbers from being hole punched or hidden
+    in the binding.  This was the standard for the
+    manually typeset rituals for other York Rite bodies
+    in Oregon up through the 1970s, but was a feature
+    lost in the move to word processors.  With the .rit
+    format, this feature has been restored.
+  - Page numbering is now on the outer top corner of
+    each page, or at the bottom center of the opening
+    page of each Chapter or Major Section.
+  - A mark has been added to easily identify the line
+    number where each new speaker begins.  A unique
+    mark is used for the Illustrious Master since he is
+    most frequently the one dialog is being exchanged
+    with.
+  - The name of the current section in the page heading
+    has been aligned to the inner edge.
+  - The size of all illustrations has been slightly
+    increased.
+  - Restored the dashes between the officer's abbreviation
+    and their spoken lines, which was omitted in the
+    previous release only as a time-saving measure.
+  - Started the Select Master Lecture one line lower
+    on the page so that the first sentence of the
+    paragraph mentioning Zabud doesn't get broken between
+    pages unnecessarily.
+  - Added the degree name above the section heading
+    for the Working Tools in both degrees, since it
+    corresponds with an entry in the Table of Contents.
+  - The Select Master Emblem, shown on the outer edge of
+    the page where Opening and Closing begins, as an aid
+    to finding the most frequently needed pages for use
+    at a stated assembly, is now even closer to the outer
+    edge of the page, taking the space where the first
+    three line numbers would go on an ordinary page.
+  - Word-wrap on Endnotes 277-i and 308-i have been
+    adjusted to allow for the corresponding diagrams to
+    be enlarged.
+  - Page 331 has less vertical spacing between elements,
+    allowing for the Endnotes to conclude on page 332,
+    reducing the page count by two.
+
+### Version 1.0 (January 2025)
+
+**Initial Release.**
+
+  - Published Hardcover, Softcover, and Digital versions as "Ritual of the Cryptic
+    Degrees: Reference Edition" under the Creative Commons Attribution 4.0
+    License.
+  - This initial release was labeled "FIRST EDITION" or "2025 EDITION", as version
+    numbering wouldn't be  adopted until the next release.

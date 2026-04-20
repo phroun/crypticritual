@@ -1,0 +1,54 @@
+%% ============================================================
+%% TABLE OF CONTENTS
+%% ============================================================
+
+%PAGE 201 contents
+
+#toc-title RITUAL OF THE CRYPTIC DEGREES |
+   TABLE OF CONTENTS
+
+%TABS 0 3.5in:right:dot
+
+: INTRODUCTORY REMARKS : {{bookmark-page intro}} :
+: OFFICER'S JEWELS : {{bookmark-page jewels}} :
+: POSITIONS OF ATTENTION & REVERENCE : {{bookmark-page attention}} :
+: GUIDE TO SYMBOLS & ALTERNATE READINGS : :
+: {{space 0.25in}} FOR MULTIPLE CANDIDATES : {{bookmark-page guide}} :
+
+#toc-section RITUAL WORK FOR STATED ASSEMBLIES:
+
+: SELECT MASTER DEGREE – FULL FORM OPENING : {{bookmark-page sm-opening}} :
+: ANNOUNCING AN ALARM  & AT EASE : {{bookmark-page alarm}} :
+: VOUCHMENT FOR ELECTION OF CANDIDATE : {{bookmark-page vouchment-candidate}} :
+: VOUCHMENT FOR AFFILIATION : {{bookmark-page vouchment-affiliation}} :
+: BALLOTING ON PETITIONS : {{bookmark-page balloting}} :
+: CALLING FROM LABOR TO REFRESHMENT : {{bookmark-page labor-to-refreshment}} :
+: CALLING FROM REFRESHMENT TO LABOR : {{bookmark-page refreshment-to-labor}} :
+: [[em]]SELECT MASTER DEGREE – FULL FORM CLOSING[[/em]] : [[em]]{{bookmark-page sm-closing}}[[/em]] :
+
+#toc-section RITUAL FOR CONFERRING 8° ROYAL MASTER:
+
+: SUSPEND S._M. TO WORK AS ROYAL MASTERS : {{bookmark-page sm-suspend}} :
+: [[em]]CLOSING TO RESUME WORK AS SELECT MASTERS[[/em]] : [[em]]{{bookmark-page sm-resume}}[[/em]] :
+
+: FULL FORM OPENING : {{bookmark-page rm-opening}} :
+: WORK : {{bookmark-page rm-work-1}} :
+: SECOND SECTION : {{bookmark-page rm-work-2}} :
+: WORKING TOOLS : {{bookmark-page rm-tools}} :
+: LECTURE : {{bookmark-page rm-lecture}} :
+: FULL FORM CLOSING : {{bookmark-page rm-closing}} :
+
+#toc-section RITUAL FOR CONFERRING 9° SELECT MASTER:
+
+: [[em]]FULL FORM OPENING[[/em]] : [[em]]{{bookmark-page sm-opening}}[[/em]] :
+: WORK : {{bookmark-page sm-work-1}} :
+: SECOND SECTION : {{bookmark-page sm-work-2}} :
+: LECTURE : {{bookmark-page sm-lecture}} :
+: APRON & WORKING TOOLS : {{bookmark-page sm-tools}} :
+: CHARGE : {{bookmark-page sm-charge}} :
+: FULL FORM CLOSING : {{bookmark-page sm-closing}} :
+
+: [[strong]]END NOTES[[/strong]] : {{bookmark-page end-notes}} :
+%SPACE 0.1in
+#caption {{endnote-ref page-numbering}}
+%END-PAGE

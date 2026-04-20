@@ -1,0 +1,28 @@
+%PAGE figure
+Figure 1.
+
+## OFFICERS OF THE COUNCIL
+## Their Stations and Places.
+
+%SPACE
+%IMAGE "figures/01-officers.png" 26
+%SPACE
+
+%COLUMN 0.3in 3in
+  1. Illustrious Master — K. S.
+  2. Deputy Master — H. K. T.
+  3. Principal Conductor of the Work — H. A.
+  4. Treasurer
+  5. Recorder
+  6. Captain of the Guard
+  7. Conductor of the Council
+  8. Steward
+  9. Sentinel
+%Y -3
+%COLUMN 2.5in 0
+  10. Chaplain
+  11. Marshal
+  12. Musician
+%COLUMN OFF
+%PAGE figure
+%END-PAGE
