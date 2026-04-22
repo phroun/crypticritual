@@ -8,37 +8,37 @@
 
 RITUAL | Of the Cryptic Degrees
 
-#edition REFERENCE EDITION
+.edition REFERENCE EDITION
 
 %SPACE 0.3in
 
-#note For use by the constituent Councils of any |
+.note For use by the constituent Councils of any |
   Grand Council by whom it may be adopted.
 
-#dedication This |
+.dedication This |
   [[big]]Reference Edition of the Ritual[[/big]] |
   is Dedicated in Memoriam:
 
 %SPACE
 %SPACING 0.25in
 
-#names Dr. William F. Kuhn (1849–1924)
+.names Dr. William F. Kuhn (1849–1924)
 
-#names Carl G. Carlson (1936–2009)
+.names Carl G. Carlson (1936–2009)
 
-#names Benjamin F. Wade (1938–2021)
+.names Benjamin F. Wade (1938–2021)
 
-#names Loren E. Shrock (1941–2022)
+.names Loren E. Shrock (1941–2022)
 
 %SPACE 0.1in
 
-#tribute Those Most Illustrious Companions without whose |
+.tribute Those Most Illustrious Companions without whose |
    guiding influence it would not exist.
 
 %SPACING 0.6in
 
 %SPACE 0.7in
-#draft-info Drafts: 2009 (1st–5th),
+.draft-info Drafts: 2009 (1st–5th),
    2018 (6th),
    2022 (7th),
    2024 (8th),
@@ -47,6 +47,6 @@ RITUAL | Of the Cryptic Degrees
 
 %SPACE 0.3in
 
-#year VERSION 1.1 (April 2026)
+.year VERSION 1.1 {{$PUBLICATION_DATE}}
 %SPACING 0
 %END-PAGE

@@ -9,7 +9,7 @@
 # INTRODUCTORY REMARKS {{bookmark intro}}
 
 The following are the officers of a Council of Cryptic Masons:
-#editorial (See Fig. 1 for placement. * are defined as line officers)
+.editorial (See Fig. 1 for placement. * are defined as line officers)
 
 %TABS 0.1in 0.25in 2.4in 2.55in
 :   : [[list-caption]]Elective:[[/list-caption]] :   : [[list-caption]]Appointive:[[/list-caption]] :
@@ -74,7 +74,7 @@ of the hands of a candidate while receiving the obligation. {{bookmark altar-pla
 
 %IMAGE "figures/sm-altar-placement.svg" 13 padding=0.5
 
-#caption Two examples of acceptable placement for the Sword & Trowel.
+.caption Two examples of acceptable placement for the Sword & Trowel.
 
 %PAGE figure
 
@@ -138,13 +138,13 @@ hands visible.
 
 # KEY TO ALTERNATE READINGS | FOR MULTIPLE CANDIDATES
 
-#rubric There are many passages in the Cryptic ritual that have an
+.rubric There are many passages in the Cryptic ritual that have an
   alternate reading depending on whether a degree is being
   conferred upon only one candidate or multiple candidates
   at the same time.  These readings are most likely self explanatory,
   but in case of any question, here is the rule:
 
-#rubric When two words are given in braces separated by a slash, such
+.rubric When two words are given in braces separated by a slash, such
   as "{him/them}" the first word is used for a single candidate,
   and the second word is used for multiple candidates.  Words or
   letters given in parenthesis, such as the "(s)" in the word
@@ -161,14 +161,14 @@ sample: Retire to the preparation room with companion(s) A, B,
   Mason(s), return and present {his/their} work for
   inspection.
 
-#rubric For a single candidate, the above should be read as follows:
+.rubric For a single candidate, the above should be read as follows:
 
 |34|
 sample: Retire to the preparation room with companion A, clothe
   him as a Fellowcraft Mason, return and present his work
   for inspection.
 
-#rubric For multiple candidates, the sample should be read as follows:
+.rubric For multiple candidates, the sample should be read as follows:
 
 |40|
 sample: Retire to the preparation room with companions A, B, C,

@@ -4,9 +4,9 @@
 
 %PAGE copyright
 
-|7| Ritual of the Cryptic Degrees — Reference Edition
+|7| Ritual of the Cryptic Degrees — {{$VARIANT}}
 
-Version 1.1 (April 2026)
+{{$VERSION}} {{$PUBLICATION_DATE}}
 
 |12| Ritual of the Cryptic Degrees: Reference Edition— |
   © 2009–2026 by Jeffrey R. Day; additional content |
@@ -22,9 +22,9 @@ To view a copy of this license, visit |
   contact Jeffrey R. Day.
 
 %SPACING 0.25in
-|30| (ISBN goes here on the Print Edition)
+|30| {{$ISBN}}
 
-Electronic Copy
+{{$IMPRINT}}
 %SPACING 0
 %PAGE figure
 
