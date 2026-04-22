@@ -1,9 +1,22 @@
 %DOCTYPE ritual
 %STYLE "content/cryptic.style"
+%SET $VARIANT "Reference Edition"
+%SET $VERSION "Version 1.1"
+%SET $PUBLICATION_DATE "April 2026"
+
+%SET $ISBN    "978-1-105-41468-8"
+%SET $IMPRINT "Imprint: Lulu.com"
+
+%SET $ISBN   "(ISBN goes here on the printed edition)"
+%SET $IMPRINT "(Electronic Copy)"
+
 %DOC-MARGINS top=0.5in outer=0.67in inner=0.67in bottom=0.67in
 %OUTPUT "output/CrypticRitual-Reference-v1.1$.pdf"
 %COMPAT "output/CrypticRitual-Reference-v1.0.marks"
 
+%IFDEF $PUBLICATION_DATE
+%SET $PUBLICATION_DATE "({{$PUBLICATION_DATE}})"
+%ENDIF
 @include "content/roles.rit"
 @include "content/front/titlepage.rit"
 @include "content/front/copyright.rit"

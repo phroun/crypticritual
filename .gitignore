@@ -1,2 +1,5 @@
 .DS_Store
 output
+fonts
+src/cover-logo.png
+src/cover-notes.txt
