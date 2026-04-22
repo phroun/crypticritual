@@ -6,9 +6,13 @@
 
 Link to this Page:  http://tinyurl.com/crypticritual
 
-### Version 1.0
+### Version 1.1
 
 Online:  http://archive.org/details/crypticritual
+
+Hard Cover:  https://www.lulu.com/shop/jeffrey-day-and-pete-bock-and-michael-hogan-and-brian-kaufman/ritual-of-the-cryptic-degrees-reference-edition/hardcover/product-95djvkg.html
+
+### Version 1.0
 
 Paperback:  https://www.lulu.com/shop/pete-bock-and-jeffrey-day-and-michael-hogan-and-brian-kaufman/ritual-of-the-cryptic-degrees/paperback/product-2md465r.html
 
