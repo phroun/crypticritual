@@ -3,12 +3,15 @@
 %% ============================================================
 
 %PAGE copyright
+%LINE-HEIGHT 0.17in
 
-|7| Ritual of the Cryptic Degrees — {{$VARIANT}}
+%Y 6
+Ritual of the Cryptic Degrees — {{$VARIANT}}
 
 {{$VERSION}} {{$PUBLICATION_DATE}}
 
-|12| Ritual of the Cryptic Degrees: Reference Edition— |
+%Y 11
+Ritual of the Cryptic Degrees: Reference Edition— |
   © 2009–2026 by Jeffrey R. Day; additional content |
   © 2025–2026 by Pete Bock, Jeffrey R. Day, Michael Hogan, |
   Brian Kaufman, Richard G. Maris, Mark W. Potter, |
@@ -18,11 +21,13 @@
 To view a copy of this license, visit |
   https://creativecommons.org/licenses/by/4.0/
 
-|25| Additional licensing options may be available upon request; |
+%Y 24
+Additional licensing options may be available upon request; |
   contact Jeffrey R. Day.
 
 %SPACING 0.25in
-|30| {{$ISBN}}
+%Y 29
+{{$ISBN}}
 
 {{$IMPRINT}}
 %SPACING 0
@@ -76,5 +81,5 @@ _ |
 {{blank 12em}} |
 _ |
 See https://tinyurl.com/crypticritual for more information.
-
+%LINE-HEIGHT 0
 %END-PAGE

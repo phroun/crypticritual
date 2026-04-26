@@ -156,6 +156,7 @@ Page.figure {
   top-margin-offset: 0.25in;
   following-type: normal;
   track-headings: false;
+  line-height: 0.17in;
   Header { content: ""; }
 
   Footer {
