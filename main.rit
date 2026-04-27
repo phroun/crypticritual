@@ -1,1 +1,1 @@
-@INCLUDE src/cryptic.rit
+@INCLUDE "src/cryptic.rit"
