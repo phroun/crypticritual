@@ -65,8 +65,8 @@ Page.normal {
   following-type: normal;
 
   Header {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
+    font-family: "Helvetica";
+    font-size: 9pt;
     separator-line: bottom;
     separator-width: 0.2mm;
   }
@@ -89,8 +89,8 @@ Page.chapter {
   Header { content: ""; }
 
   Footer {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
+    font-family: "Arial Unicode";
+    font-size: 11pt;
     content: "{{page-number}}";
     align: center;
   }
@@ -120,7 +120,6 @@ Page.title {
   side: right-only;
   grid-locked: false;
   line-numbers: none;
-  top-margin-offset: 0.25in;
   following-type: copyright;
   Header { content: ""; }
   Footer { content: ""; }
@@ -137,7 +136,7 @@ Page.copyright {
   side: right-only;
   grid-locked: false;
   line-numbers: none;
-  top-margin-offset: 0.25in;
+  margin-offset-top: 0.25in;
   following-type: normal;
   Header { content: ""; }
   Footer { content: ""; }
@@ -153,15 +152,15 @@ Page.figure {
   side: left-or-right;
   grid-locked: false;
   line-numbers: none;
-  top-margin-offset: 0.25in;
+  margin-offset-top: 0in;
   following-type: normal;
   track-headings: false;
   line-height: 0.17in;
   Header { content: ""; }
 
   Footer {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
+    font-family: "Arial Unicode";
+    font-size: 11pt;
     content: "{{page-number}}";
     align: center;
   }
@@ -182,8 +181,8 @@ Page.contents {
   Header { content: ""; }
 
   Footer {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
+    font-family: "Arial Unicode";
+    font-size: 11pt;
     content: "{{page-number}}";
     align: center;
   }
@@ -193,26 +192,6 @@ Page.contents {
     font-size: 10pt;
     align: left;
   }
-}
-
-Page.contents-more {
-  extends: Page.contents;
-  side: left-or-right;
-  margin-bottom-adjust: -0.2in;
-  following-type: contents-more;
-
-  Header {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
-    separator-line: bottom;
-  }
-  :right Header {
-    content: "{{h1}} : : {{page-number}}";
-  }
-  :left Header {
-    content: "{{page-number}} : : {{h1}}";
-  }
-  Footer { content: ""; }
 }
 
 Page.endnotes {
@@ -225,8 +204,8 @@ Page.endnotes {
   Header { content: ""; }
 
   Footer {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
+    font-family: "Arial Unicode";
+    font-size: 11pt;
     content: "{{page-number}}";
     align: center;
   }
@@ -239,12 +218,12 @@ Page.endnotes {
 
 Page.endnotes-more {
   extends: Page.endnotes;
-  margin-bottom-adjust: -0.2in;
+  margin-offset-bottom: -0.2in;
   following-type: endnotes-more;
 
   Header {
-    font-family: "DejaVu Sans";
-    font-size: 12pt;
+    font-family: "Arial Unicode";
+    font-size: 11pt;
     separator-line: bottom;
   }
   :right Header {
@@ -261,7 +240,7 @@ Page.endnotes-more {
  * ============================================================ */
 
 Line-Number {
-  font-family: "Helvetica";
+  font-family: "Arial Unicode";
   font-size: 11pt;
   color: #000000;
   standoff: 3mm;
@@ -272,7 +251,7 @@ Line-Number {
 Speaker-Pointer {
   default-left: "►";
   default-right: "◄";
-  font-family: "DejaVu Sans";
+  font-family: "Arial Unicode";
   font-size: 11pt;
   gap: 0.32mm;
 }
@@ -281,13 +260,6 @@ Speaker-Pointer {
 /* ============================================================
  * PARAGRAPH CLASSES
  * ============================================================ */
-
-P.sub {
-  font-family: "Times New Roman";
-  font-size: 14pt;
-  font-weight: bold;
-  align: center;
-}
 
 P.edition {
   font-family: "Copperplate";
@@ -364,7 +336,7 @@ P.rubric {
 }
 
 P.caption, P.image-caption {
-  font-family: "Helvetica";
+  font-family: "Arial Unicode";
   font-size: 10pt;
   align: center;
 }
@@ -375,28 +347,13 @@ P.caption, P.image-caption {
  * ============================================================ */
 
 Dialog {
-  font-family: "Times New Roman";
   font-size: 11pt;
-  justify: true;
-
-  Speaker {
-    font-weight: normal;
-    width: 12mm;
-    separator: "\u2013";
-  }
-
-  Decoration {
-    width: 5mm;
-    font-weight: bold;
-    align: center;
-  }
-
-  Action-Note {
-    font-weight: bold;
-    text-decoration: underline;
-  }
 }
-
+Speaker {
+  font-weight: normal;
+  width: 12mm;
+  separator: "\u2013";
+}
 
 /* ============================================================
  * INLINE STYLES (lowercase — user-extensible)
@@ -442,7 +399,6 @@ endnote-ref {
 
 Endnote {
   Reference {
-    width: 0.68in;
     font-family: "Times New Roman";
     font-size: 10pt;
     identifier-prefix: "endnote-";
@@ -457,6 +413,4 @@ Endnote {
   }
 
   trailing-space: 0.06in;
-  suppress-gap-after: true;
-  minimum-gap-before: 1lh;
 }

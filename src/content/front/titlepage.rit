@@ -3,7 +3,6 @@
 %% ============================================================
 
 %PAGE i title
-%SPACE 2
 %IMAGE "figures/cryptic-emblem.svg" 10
 %LINE-HEIGHT 0.17in
 
