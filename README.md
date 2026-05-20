@@ -1,6 +1,6 @@
 # Cryptic Ritual - Reference Edition
 
-# Online Version 1.1:  https://archive.org/details/cryptic-ritual-reference-v-1.1
+# Online Version 1.1:  [https://archive.org/details/cryptic-ritual-reference-v-1.1](https://archive.org/details/cryptic-ritual-reference-v-1.1/CrypticRitual-Reference-v1.1/)
 
 ## Where else to obtain the Ritual
 
